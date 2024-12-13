@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Recoleta';
+    src: url(Recoleta-RegularDEMO.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Client Review */
+.reviews{
+    width: 1366px;
+    height: 1425px;
+    padding: 200px 100px 200px 100px;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: none;
+    flex-direction: column;
+}
+
+.reviews .heading{
+    width: 568px;
+    height: 168px;
+}
+
+.reviews .heading h2{
+    font-family: Recoleta;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.05em;
+}
+
+.reviews .client{
+    width: 965px ;
+    height: 565px ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    flex-direction: column;
+}
+
+.reviews .client .clientinfo{
+    width: 965px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Client Box 1 */
+.reviews .client .clientinfo .clientbox1{
+    width: 250px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews .client .clientinfo .clientbox1 .clienticon{
+    width: 80px;
+    height: 80px;
+}
+
+.reviews .client .clientinfo .clientbox1 .clienticon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviews .client .clientinfo .clientbox1 .clientinfo_name{
+    width: 150px;
+    height: 80px;
+}
+
+.reviews .client .clientinfo .clientbox1 .clientinfo_name .clientinfo_name-text{
+    width: 150px;
+    height: 30px;
+}
+.reviews .client .clientinfo .clientbox1 .clientinfo_name .clientinfo_name-text h2{
+    font-family: Recoleta;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.reviews .client .clientinfo .clientbox1 .clientinfo_name .clientinfo_name-position{
+    width: 112px;
+    height: 30px;
+}
+
+.reviews .client .clientinfo .clientbox1 .clientinfo_name .clientinfo_name-position p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+/* Client Box 2 */
+.reviews .client .clientinfo .clientbox2{
+    width: 289px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews .client .clientinfo .clientbox2 .clienticon{
+    width: 80px;
+    height: 80px;
+}
+
+.reviews .client .clientinfo .clientbox2 .clienticon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviews .client .clientinfo .clientbox2 .clientinfo_name{
+    width: 192px;
+    height: 80px;
+}
+
+.reviews .client .clientinfo .clientbox2 .clientinfo_name .clientinfo_name-text{
+    width: 192px;
+    height: 30px;
+}
+.reviews .client .clientinfo .clientbox2 .clientinfo_name .clientinfo_name-text h2{
+    font-family: Recoleta;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.reviews .client .clientinfo .clientbox2 .clientinfo_name .clientinfo_name-position{
+    width: 100px;
+    height: 30px;
+}
+
+.reviews .client .clientinfo .clientbox2 .clientinfo_name .clientinfo_name-position p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+/* Client Box 3 */
+.reviews .client .clientinfo .clientbox3{
+    color: #484848;
+    opacity: 0.5;
+    width: 269px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews .client .clientinfo .clientbox3 .clienticon{
+    width: 80px;
+    height: 80px;
+}
+
+.reviews .client .clientinfo .clientbox3 .clienticon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviews .client .clientinfo .clientbox3 .clientinfo_name{
+    width: 172px;
+    height: 80px;
+}
+
+.reviews .client .clientinfo .clientbox3 .clientinfo_name .clientinfo_name-text{
+    width: 172px;
+    height: 30px;
+}
+.reviews .client .clientinfo .clientbox3 .clientinfo_name .clientinfo_name-text h2{
+    font-family: Recoleta;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.reviews .client .clientinfo .clientbox3 .clientinfo_name .clientinfo_name-position{
+    width: 172px;
+    height: 30px;
+}
+
+.reviews .client .clientinfo .clientbox3 .clientinfo_name .clientinfo_name-position p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.reviews .client .quote{
+    width: 83px;
+    height: 65px;
+}
+
+.reviews .client .quote .fa-solid{
+    width: 83px;
+    height: 65px;
+    color: #53D4B5;
+}
+
+.reviews .client .review-text{
+    width: 840px;
+    height: 330px;
+}
+
+.reviews .client .review-text{
+    font-family: Recoleta;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.06em;   
+}
+
+.reviews .more_reviews{
+    width: 232.65px;
+    height: 95px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    flex-direction: column;
+    
+}
+
+.reviews .more_reviews .more_reviews_text{
+    width: 155px;
+    height: 30px;
+}
+
+.reviews .more_reviews .more_reviews_text p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.reviews .more_reviews .rating{
+    width: 232.65px;
+    height: 45px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reviews .more_reviews .rating .sitelogo{
+    width: 114.15px;
+    height: 45px;
+}
+
+.reviews .more_reviews .rating .sitelogo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews .more_reviews .rating .star{
+    width: 103.15px;
+    height: 40.5px;
+}
+
+.reviews .more_reviews .rating .star .staricon{
+    width: 103.5px;
+    height: 16.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews .more_reviews .rating .star .staricon .fa-star{
+    color: #E3AE70;
+}
+.reviews .more_reviews .rating .star .star-rev{
+    width: 74px;
+    height: 24px;
+}
+.reviews .more_reviews .rating .star .star-rev p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+
+/* UI UX */
+.container{    
+    width: 100%;
+    height: 3262px;
+    padding: 200px 100px 200px 100px;
+    color: #2A2A2A;
+
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* Heading */
+.container .heading{
+    width: 699px;
+    height: 342px;
+}
+.container .heading h2{
+    font-family: Recoleta;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.05em;
+
+}
+.container .heading p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+}
+
+/* Explanation */
+.container .expl-box{
+    width: 1166px;
+    height: 2420px;
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+
+/* Content-Box */
+.container .expl-box .content-box{
+    width: 1166px;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+}
+
+/* Content */
+.container .expl-box .content-box .content{
+    width: 400px;
+    height: 394px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    flex-direction: column;
+}
+
+.container .expl-box .content-box .content .content-text{
+    width: 400px;
+    height: 335px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    flex-direction: column;
+}
+
+.container .expl-box .content-box .content .content-text h4{
+    font-family: Recoleta;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.03em;
+}
+
+.container .expl-box .content-box .content .content-text p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.container .expl-box .content-box .content .readmore a{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2A2A2A;
+
+}
+
+.container .expl-box .content-box .content-img{
+    width: 667px;
+    height: 500px;
+}
